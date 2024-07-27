@@ -1,0 +1,14 @@
+Models,Lexical Based Evaluation,,,,,Semantic Evaluation,,Expert Evaluation
+,Rouge-1,Rouge-2,Rouge-L,BLEU,METEOR,BERTScore,BLANC,Rating Score
+,Prediction with explanation on PredEx \cite{nigam2024legaljudgmentreimaginedpredex},,,,,,,
+Gemini pro,0.3099,0.2428,0.2593,0.0826,0.1870,0.6329,0.1715,2.24
+Llama-2,0.3211,0.1886,0.2109,0.0599,0.1760,0.6191,0.1507,3.06
+LLama-2 SFT,0.4972,0.4321,0.4399,0.2531,0.3630,0.6909,0.2844,2.84
+LLama-2 PPO,0.1852,0.0364,0.1188,0.0054,0.1008,0.4985,0.0240,-
+,-,-,-,-,-,-,-,-
+,"Prediction with explanation on ILDC expert \cite{vats-etal-2023-llms, ILDC2021}",,,,,,,
+GPT 3.5 turbo,0.5383,0.4267,0.4541,0.2842,0.4685,0.7273,0.3394,3.6
+Llama-2,0.4526,0.2454,0.2957,0.1485,0.3440,0.6464,0.2212,3.65
+LLama-2 SFT,0.4939,0.3805,0.3969,0.2918,0.5075,0.6891,0.3636,3.30
+LLama-2 PPO,0.2463,0.0456,0.1601,0.0138,0.1648,0.5032,0.0260,-
+,-,-,-,-,-,-,-,-
