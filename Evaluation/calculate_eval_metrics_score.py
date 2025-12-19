@@ -12,7 +12,7 @@ from blanc import BlancHelp, BlancTune
 nltk.download('punkt')
 
 # Assuming you already have the dataframe `df`
-df = pd.read_csv("REGAL_EVAL_DATASET/llama_3.2_16bit_QLoRA_SFT_infer_Over_predex_Test_merged.csv")  # Load your dataframe if not already loaded
+df = pd.read_csv("path_to_csv_to_be_evaluated")  # Load your dataframe if not already loaded
 
 # Initialize variables to store the scores
 rouge1_scores = []
@@ -82,5 +82,5 @@ df['BERTScore'] = bert_scores
 df['BLANC'] = blanc_scores
 
 # Save the updated dataframe to a new CSV file if needed
-df.to_csv('evaluated_output_with_avg_llama2_7B_chat.csv', index=False)  # Save to a new CSV file
+df.to_csv('path_to_evaluated_output_csv', index=False)  # Save to a new CSV file
 
