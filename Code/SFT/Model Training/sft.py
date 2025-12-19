@@ -6,11 +6,11 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import wandb
 
 # wandb initialization
-wandb.init(project="LawRL_PredOnly_SFT_16bit_QLoRA_Bharti_server")
+wandb.init(project="wandb_project_name")
 
 # Step-1: Train and Validation Dataset Generation
-df_train = pd.read_csv("predex_new/train-instruction-tuning.csv")  # Path to TRAIN.CSV
-df_val = pd.read_csv("predex_new/val_ft.csv")  # Path to VAL.CSV
+df_train = pd.read_csv("path_to_train_csv")  # Path to TRAIN.CSV
+df_val = pd.read_csv("path_to_val_csv")  # Path to VAL.CSV
 
 print("Train data size: ", df_train.shape[0])
 print("Validation data size: ", df_val.shape[0])
@@ -55,7 +55,7 @@ def print_trainable_parameters(model):
 # Print trainable parameters
 print_trainable_parameters(model)
 
-OUTPUT_DIR = "16bit_QLoRA_SFT_model_LLAMA3v2_3B"  # Path to save the fine-tuned model
+OUTPUT_DIR = "path_to_output_directory"  # Path to save the fine-tuned model
 
 from transformers import TrainingArguments
 
