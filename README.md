@@ -1,15 +1,9 @@
-# ReGal: PPO-based Legal AI for Judgment Prediction and Summarization in India
+# ReGal: A First Look at PPO-based Legal AI for Judgment Prediction and Summarization in India (AAAI 2025)
 
-<div align="center">
-<img src="assets/ReGal_Logo.png" width="100" alt="ReGal" />
-<br>
-
-**ReGal: A First Look at PPO-based Legal AI for Judgment Prediction and Summarization in India** (AAAI 2025)
 
 </div>
 
-![task_desc]([https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg](https://github.com/ShubhamKumarNigam/ReGal/blob/main/Assets/figure1.png))
-
+![task_desc](https://github.com/ShubhamKumarNigam/ReGal/blob/main/assets/figure1.png)
 <p align="center">
   <a href="https://github.com/ShubhamKumarNigam/ReGal"><b>[🌐 GitHub]</b></a> •
   <a href="https://arxiv.org/abs/your-paper-link"><b>[📄 ArXiv]</b></a> •
