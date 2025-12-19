@@ -1,7 +1,7 @@
 # ReGal: PPO-based Legal AI for Judgment Prediction and Summarization in India
 
 <div align="center">
-<img src="Assets/ReGal_Logo.png" width="100" alt="ReGal" />
+<img src="assets/ReGal_Logo.png" width="100" alt="ReGal" />
 <br>
 
 **ReGal: A First Look at PPO-based Legal AI for Judgment Prediction and Summarization in India** (AAAI 2025)
