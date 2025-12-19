@@ -6,12 +6,11 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import csv  # Use CSV module for safe CSV writing
 
 # Load the dataset
-#df = pd.read_csv("/home/shubham/LawRL/predex_new/val_ft.csv")
 df = pd.read_csv("path_to_input_ds")
 #df = df.iloc[:5000]
 print(df.shape[0])
 # Replace 'your_access_token' with your actual token
-#login(token='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')
+#login(token='hf_token')
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load the model and tokenizer
