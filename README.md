@@ -3,7 +3,8 @@
 
 </div>
 
-![task_desc](https://github.com/ShubhamKumarNigam/ReGal/blob/main/assets/figure1.png)
+![figure1](https://github.com/ShubhamKumarNigam/ReGal/blob/main/assets/figure1.png)
+
 <p align="center">
   <a href="https://github.com/ShubhamKumarNigam/ReGal"><b>[🌐 GitHub]</b></a> •
   <a href="https://arxiv.org/abs/your-paper-link"><b>[📄 ArXiv]</b></a> •
