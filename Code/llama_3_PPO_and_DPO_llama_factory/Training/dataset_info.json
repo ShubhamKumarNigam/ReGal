@@ -1,0 +1,37 @@
+{
+    "regal_IL_TUR_dpo_data": {
+        "file_name": "IL-TUR_dpo_data.json",
+        "ranking": true,
+        "columns": {
+            "instruction": "instruction",
+            "chosen": "chosen",
+            "rejected": "rejected"
+        }
+    },
+    "regal_IL_TUR_ppo_data": {
+        "file_name": "IL-TUR_ppo_data.json",
+        "ranking": true,
+        "columns": {
+            "instruction": "instruction",
+            "output": "output",
+	    "input": "input"
+        }
+    },
+    "regal_dpo_data": {
+        "file_name": "regal_dpo_data.json",
+        "ranking": true,
+        "columns": {
+            "instruction": "instruction",
+            "chosen": "chosen",
+            "rejected": "rejected"
+        }
+    },
+    "regal_ppo_data": {
+        "file_name": "regal_ppo_data.json",
+        "ranking": true,
+        "columns": {
+            "instruction": "instruction",
+            "output": "output"
+        }
+    }
+}

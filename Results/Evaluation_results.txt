@@ -1,0 +1,41 @@
+Evaluations over:
+
+1. SFT inference 
+	Average ROUGE-1: 0.4159
+	Average ROUGE-2: 0.2472
+	Average ROUGE-L: 0.2728
+	Average BLEU: 0.1426
+	Average METEOR: 0.2707
+	Average BERTScore: 0.8373
+	Average BLANC: 0.1892
+
+2. Vanilla inference
+	Average ROUGE-1: 0.3859
+	Average ROUGE-2: 0.1734
+	Average ROUGE-L: 0.2196
+	Average BLEU: 0.0724
+	Average METEOR: 0.2264
+	Average BERTScore: 0.8275
+	Average BLANC: 0.1490
+
+3. DPO inference
+	Average ROUGE-1: 0.3824
+	Average ROUGE-2: 0.1690
+	Average ROUGE-L: 0.2035
+	Average BLEU: 0.0803
+	Average METEOR: 0.2541
+	Average BERTScore: 0.8326
+	Average BLANC: 0.1681
+
+4. PPO inference
+	Actual data size: 3044
+	Data size after dropping null values: 2669
+	
+	Average ROUGE-1: 0.2957
+	Average ROUGE-2: 0.1351
+	Average ROUGE-L: 0.1741
+	Average BLEU: 0.0524
+	Average METEOR: 0.1863
+	Average BERTScore: 0.8264
+	Average BLANC: 0.1325
+
