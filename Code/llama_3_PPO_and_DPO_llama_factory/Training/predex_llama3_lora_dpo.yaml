@@ -20,7 +20,7 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: /data/sknigam/Law_RL/Summarization/models/DPO
+output_dir: path_to_dpo_output_file
 logging_steps: 10
 save_steps: 500
 plot_loss: true
