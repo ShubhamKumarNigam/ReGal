@@ -7,16 +7,16 @@ import csv
 from tqdm import tqdm
 
 # Load the dataset
-df = pd.read_csv("/home/shubham/LawRL/predex_new/result1.csv")
+df = pd.read_csv("path_to_input_csv")
 #df = df.iloc[:5000]
 print(df.shape[0])
 # Replace 'your_access_token' with your actual token
-#login(token='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')
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load the model and tokenizer
-tokenizer = AutoTokenizer.from_pretrained("/home/shubham/LawRL/16bit_QLoRA_SFT_model_LLAMA3v2_3B/checkpoint-2055")
-model = AutoModelForCausalLM.from_pretrained("/home/shubham/LawRL/16bit_QLoRA_SFT_model_LLAMA3v2_3B/checkpoint-2055").to(device)
+tokenizer = AutoTokenizer.from_pretrained("path_to_model")
+model = AutoModelForCausalLM.from_pretrained("path_to_model").to(device)
 
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
@@ -35,7 +35,7 @@ def preprocess_input(text, input_length=2000, output_length=512):
     return prompt + truncated_text + response
 
 # Open a CSV file to store the results incrementally
-output_file = "llama_3.2_16bit_SFT_test_infer.csv"
+output_file = "path_to_output_csv"
 # Write headers to the CSV file
 with open(output_file, mode="w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
