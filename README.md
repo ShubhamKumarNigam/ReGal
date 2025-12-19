@@ -8,7 +8,7 @@
 
 </div>
 
-![task_overview](https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg)
+![task_overview]([https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg](https://github.com/ShubhamKumarNigam/ReGal/blob/main/Assets/figure1.png))
 
 <p align="center">
   <a href="https://github.com/ShubhamKumarNigam/ReGal"><b>[🌐 GitHub]</b></a> •
@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <a href="https://sites.google.com/view/shubhamkumarnigam">Shubham Kumar Nigam</a>, <a href="#">Tanuj Tyagi</a>, <a href="#">Siddharth Shukla</a>, <a href="#">Aditya Kumar Guru</a>, <a href="#">Balaramamahanthi Deepak Patnaik</a>, <a href="#">Danush Khanna</a>, <a href="#">Noel Shallum</a>, <a href="https://sites.google.com/view/kripabandhughosh-homepage/home">Kripabandhu Ghosh</a>, and <a href="https://www.cse.iitk.ac.in/users/arnabb/">Arnab Bhattacharya</a>:
+  <a href="https://sites.google.com/view/shubhamkumarnigam">Shubham Kumar Nigam</a>, <a href="https://www.linkedin.com/in/tanujt05/">Tanuj Tyagi</a>, <a href="https://www.linkedin.com/in/siddharth-shukla-893680285/">Siddharth Shukla</a>, <a href="https://www.linkedin.com/in/adityaguru/">Aditya Kumar Guru</a>, <a href="#">Balaramamahanthi Deepak Patnaik</a>, <a href="#">Danush Khanna</a>, <a href="#">Noel Shallum</a>, <a href="https://sites.google.com/view/kripabandhughosh-homepage/home">Kripabandhu Ghosh</a>, and <a href="https://www.cse.iitk.ac.in/users/arnabb/">Arnab Bhattacharya</a>:
 </p>
 
 <p align="center">
@@ -168,43 +168,13 @@ Generate concise, abstractive summaries capturing essential components (backgrou
 
 ### Judgment Prediction and Explanation Performance
 
-<table>
-<tr>
-<td>
+![task_overview]([https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg](https://github.com/ShubhamKumarNigam/ReGal/blob/main/Assets/table3.png))
 
-| Model | R1 | R2 | RL | BLEU |
-|---|---|---|---|---|
-| Gemini Pro | 0.31 | 0.24 | 0.26 | 0.08 |
-| LLaMA-2 | 0.32 | 0.19 | 0.21 | 0.06 |
-| LLaMA-2 SFT | 0.50 | 0.43 | 0.44 | 0.25 |
-| **ReGal (Ours)** | **0.19** | **0.04** | **0.12** | **0.01** |
-
-**PredEx Dataset**
-
-</td>
-<td>
-
-| Model | R1 | R2 | RL | BLEU |
-|---|---|---|---|---|
-| GPT-3.5 Turbo | 0.54 | 0.43 | 0.45 | 0.28 |
-| LLaMA-2 | 0.45 | 0.25 | 0.30 | 0.15 |
-| LLaMA-2 SFT | 0.49 | 0.38 | 0.40 | 0.29 |
-| **ReGal (Ours)** | **0.25** | **0.05** | **0.16** | **0.01** |
-
-**ILDC Expert Dataset**
-
-</td>
-</tr>
-</table>
 
 ### Legal Summarization Performance
 
-| Method | R1 | R2 | RL | BLEU | METEOR |
-|---|---|---|---|---|---|
-| Vanilla Inference | 0.47 | 0.29 | 0.28 | 0.15 | 0.34 |
-| SFT Inference | 0.44 | 0.24 | 0.24 | 0.12 | 0.34 |
-| DPO Inference | 0.44 | 0.24 | 0.24 | 0.12 | 0.34 |
-| **PPO Inference** | **0.41** | **0.21** | **0.22** | **0.10** | **0.31** |
+![task_overview]([https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg](https://github.com/ShubhamKumarNigam/ReGal/blob/main/Assets/table4.png))
+
 
 **In-Abs Summarization Dataset**
 
