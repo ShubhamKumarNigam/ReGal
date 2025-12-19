@@ -3,7 +3,7 @@
 
 </div>
 
-![figure1](https://github.com/ShubhamKumarNigam/ReGal/blob/main/assets/figure1.png)
+![figure1](https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/figure1.png)
 
 <p align="center">
   <a href="https://github.com/ShubhamKumarNigam/ReGal"><b>[🌐 GitHub]</b></a> •
