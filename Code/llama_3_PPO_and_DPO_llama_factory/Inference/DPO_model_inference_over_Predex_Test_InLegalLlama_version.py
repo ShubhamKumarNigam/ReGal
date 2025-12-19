@@ -7,7 +7,7 @@ import csv  # Use CSV module for safe CSV writing
 
 # Load the dataset
 #df = pd.read_csv("/home/shubham/LawRL/predex_new/val_ft.csv")
-df = pd.read_csv("/data/sknigam/Law_RL/data/predex_new/result1.csv")
+df = pd.read_csv("path_to_input_ds")
 #df = df.iloc[:5000]
 print(df.shape[0])
 # Replace 'your_access_token' with your actual token
@@ -15,8 +15,8 @@ print(df.shape[0])
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load the model and tokenizer
-tokenizer = AutoTokenizer.from_pretrained("/data/sknigam/Law_RL/code/deepak/DPO/DPO_Model_over_Updated_regal/checkpoint-111")
-model = AutoModelForCausalLM.from_pretrained("/data/sknigam/Law_RL/code/deepak/DPO/DPO_Model_over_Updated_regal/checkpoint-111").to(device)
+tokenizer = AutoTokenizer.from_pretrained("path_to_trained_dpo_model_tokenizer")
+model = AutoModelForCausalLM.from_pretrained("path_to_trained_dpo_model").to(device)
 
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
@@ -35,7 +35,7 @@ def preprocess_input(text, input_length=2000, output_length=512):
     return prompt + truncated_text + response
 
 # Open a CSV file to store the results incrementally
-output_file = "new_regal_trained_DPO_model_test_infer_1024_maxtokens.csv"
+output_file = "path_to_output_file"
 
 #output_file = "temp.csv"
 # Use CSV writer for proper handling of special characters and newlines
