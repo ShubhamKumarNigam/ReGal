@@ -1,6 +1,6 @@
 ### model
-model_name_or_path: /data/sknigam/Law_RL/Summarization/code/SFT/checkpoint-1185
-reward_model: /data/sknigam/Law_RL/Summarization/models/PPO/PredEx_InLegalBert_Pred
+model_name_or_path: path_to_trained_ppo_model
+reward_model: path_to_trained_reward_model
 trust_remote_code: true
 
 ### method
