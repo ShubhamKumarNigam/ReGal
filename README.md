@@ -163,12 +163,12 @@ Generate concise, abstractive summaries capturing essential components (backgrou
 
 ### Judgment Prediction and Explanation Performance
 
-![task_desc]([https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg](https://github.com/ShubhamKumarNigam/ReGal/blob/main/Assets/table3.png))
+![table3](https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/table3.png)
 
 
 ### Legal Summarization Performance
 
-![task_desc]([https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg](https://github.com/ShubhamKumarNigam/ReGal/blob/main/Assets/table4.png))
+![table4](https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/table4.png)
 
 
 **In-Abs Summarization Dataset**
