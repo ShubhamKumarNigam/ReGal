@@ -8,7 +8,7 @@
 
 </div>
 
-![task_overview]([https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg](https://github.com/ShubhamKumarNigam/ReGal/blob/main/Assets/figure1.png))
+![task_desc]([https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg](https://github.com/ShubhamKumarNigam/ReGal/blob/main/Assets/figure1.png))
 
 <p align="center">
   <a href="https://github.com/ShubhamKumarNigam/ReGal"><b>[🌐 GitHub]</b></a> •
@@ -168,12 +168,12 @@ Generate concise, abstractive summaries capturing essential components (backgrou
 
 ### Judgment Prediction and Explanation Performance
 
-![task_overview]([https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg](https://github.com/ShubhamKumarNigam/ReGal/blob/main/Assets/table3.png))
+![task_desc]([https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg](https://github.com/ShubhamKumarNigam/ReGal/blob/main/Assets/table3.png))
 
 
 ### Legal Summarization Performance
 
-![task_overview]([https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg](https://github.com/ShubhamKumarNigam/ReGal/blob/main/Assets/table4.png))
+![task_desc]([https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/task_overview.jpg](https://github.com/ShubhamKumarNigam/ReGal/blob/main/Assets/table4.png))
 
 
 **In-Abs Summarization Dataset**
