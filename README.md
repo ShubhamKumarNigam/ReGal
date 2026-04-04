@@ -164,13 +164,13 @@ Generate concise, abstractive summaries capturing essential components (backgrou
 ## Results
 
 ### Judgment Prediction and Explanation Performance
-<p align="center">
+<p align="left">
   <img src="Assets/table3.png" alt="Table 3" width="600" height="600"/>
 </p>
 
 ### Legal Summarization Performance
 
-<p align="center">
+<p align="left">
   <img src="Assets/table4.png" alt="Table 4" width="600" height="600"/>
 </p>
 
