@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://github.com/ShubhamKumarNigam/ReGal"><b>[🌐 GitHub]</b></a> •
-  <a href="https://arxiv.org/abs/your-paper-link"><b>[📄 ArXiv]</b></a> •
+  <a href="https://arxiv.org/abs/2512.18014"><b>[📄 ArXiv]</b></a> •
   <a href="https://huggingface.co/collections/L-NLProc/regal-models"><b>[🤗 HF Models]</b></a> •
   <a href="https://huggingface.co/collections/L-NLProc/regal-datasets"><b>[🤗 HF Dataset]</b></a>
 </p>
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/your-paper-link"><strong>ReGal: A First Look at PPO-based Legal AI for Judgment Prediction and Summarization in India</strong></a> (AAAI 2025)
+  <a href="https://arxiv.org/abs/2512.18014"><strong>ReGal: A First Look at PPO-based Legal AI for Judgment Prediction and Summarization in India</strong></a> (AAAI 2025)
 </p>
 
 ## Overview
@@ -238,7 +238,7 @@ If you use this work, please cite our paper:
 @article{nigam2025regal,
   title={ReGal: A First Look at PPO-based Legal AI for Judgment Prediction and Summarization in India},
   author={Nigam, Shubham Kumar and Tyagi, Tanuj and Shukla, Siddharth and Guru, Aditya Kumar and Patnaik, Balaramamahanthi Deepak and Khanna, Danush and Shallum, Noel and Ghosh, Kripabandhu and Bhattacharya, Arnab},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
+  journal={arXiv preprint arXiv:2512.18014},
   year={2025}
 }
 ```
