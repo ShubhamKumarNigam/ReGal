@@ -3,7 +3,9 @@
 
 </div>
 
-![figure1](https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/figure1.png)
+<p align="center">
+  <img src="Assets/figure1.png" alt="Model Training Methodology" width="500" height="500"/>
+</p>
 
 <p align="center">
   <a href="https://github.com/ShubhamKumarNigam/ReGal"><b>[🌐 GitHub]</b></a> •
@@ -162,14 +164,15 @@ Generate concise, abstractive summaries capturing essential components (backgrou
 ## Results
 
 ### Judgment Prediction and Explanation Performance
-
-![table3](https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/table3.png)
-
+<p align="center">
+  <img src="Assets/table3.png" alt="Table 3" width="600" height="600"/>
+</p>
 
 ### Legal Summarization Performance
 
-![table4](https://github.com/ShubhamKumarNigam/ReGal/raw/main/Assets/table4.png)
-
+<p align="center">
+  <img src="Assets/table4.png" alt="Table 4" width="600" height="600"/>
+</p>
 
 **In-Abs Summarization Dataset**
 
