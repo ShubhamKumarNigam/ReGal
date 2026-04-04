@@ -10,8 +10,8 @@
 <p align="center">
   <a href="https://github.com/ShubhamKumarNigam/ReGal"><b>[🌐 GitHub]</b></a> •
   <a href="https://arxiv.org/abs/2512.18014"><b>[📄 ArXiv]</b></a> •
-  <a href="https://huggingface.co/collections/L-NLProc/regal-models"><b>[🤗 HF Models]</b></a> •
-  <a href="https://huggingface.co/collections/L-NLProc/regal-datasets"><b>[🤗 HF Dataset]</b></a>
+  <a href="https://huggingface.co/datasets/L-NLProc/ReGal-Results"><b>[🤗 HF Results]</b></a> •
+  <a href="https://huggingface.co/datasets/L-NLProc/ReGal-Dataset"><b>[🤗 HF Dataset]</b></a>
 </p>
 
 <p align="center">
